@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E743D2D719C6A7DD000B7E6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E743D2D619C6A7DD000B7E6E /* Foundation.framework */; };
+		E743D2D919C6A7DD000B7E6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E743D2D819C6A7DD000B7E6E /* CoreGraphics.framework */; };
+		E743D2DB19C6A7DD000B7E6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E743D2DA19C6A7DD000B7E6E /* UIKit.framework */; };
+		E743D2E119C6A7DD000B7E6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E743D2DF19C6A7DD000B7E6E /* InfoPlist.strings */; };
+		E743D2E319C6A7DD000B7E6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E743D2E219C6A7DD000B7E6E /* main.m */; };
+		E743D2E719C6A7DD000B7E6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E743D2E619C6A7DD000B7E6E /* AppDelegate.m */; };
+		E743D2EA19C6A7DD000B7E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E743D2E819C6A7DD000B7E6E /* Main.storyboard */; };
+		E743D2ED19C6A7DD000B7E6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E743D2EC19C6A7DD000B7E6E /* ViewController.m */; };
+		E743D2EF19C6A7DD000B7E6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E743D2EE19C6A7DD000B7E6E /* Images.xcassets */; };
+		E743D2F619C6A7DD000B7E6E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E743D2F519C6A7DD000B7E6E /* XCTest.framework */; };
+		E743D2F719C6A7DD000B7E6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E743D2D619C6A7DD000B7E6E /* Foundation.framework */; };
+		E743D2F819C6A7DD000B7E6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E743D2DA19C6A7DD000B7E6E /* UIKit.framework */; };
+		E743D30019C6A7DD000B7E6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E743D2FE19C6A7DD000B7E6E /* InfoPlist.strings */; };
+		E743D30219C6A7DD000B7E6E /* PublicIPAddressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E743D30119C6A7DD000B7E6E /* PublicIPAddressTests.m */; };
+		E743D30F19C6A80F000B7E6E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E743D30C19C6A80F000B7E6E /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E743D31019C6A80F000B7E6E /* STUNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E743D30E19C6A80F000B7E6E /* STUNClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E743D2F919C6A7DD000B7E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E743D2CB19C6A7DD000B7E6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E743D2D219C6A7DD000B7E6E;
+			remoteInfo = PublicIPAddress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E743D2D319C6A7DD000B7E6E /* PublicIPAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicIPAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E743D2D619C6A7DD000B7E6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E743D2D819C6A7DD000B7E6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E743D2DA19C6A7DD000B7E6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E743D2DE19C6A7DD000B7E6E /* PublicIPAddress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PublicIPAddress-Info.plist"; sourceTree = "<group>"; };
+		E743D2E019C6A7DD000B7E6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E743D2E219C6A7DD000B7E6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E743D2E419C6A7DD000B7E6E /* PublicIPAddress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PublicIPAddress-Prefix.pch"; sourceTree = "<group>"; };
+		E743D2E519C6A7DD000B7E6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E743D2E619C6A7DD000B7E6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E743D2E919C6A7DD000B7E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E743D2EB19C6A7DD000B7E6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E743D2EC19C6A7DD000B7E6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E743D2EE19C6A7DD000B7E6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E743D2F419C6A7DD000B7E6E /* PublicIPAddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PublicIPAddressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E743D2F519C6A7DD000B7E6E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E743D2FD19C6A7DD000B7E6E /* PublicIPAddressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PublicIPAddressTests-Info.plist"; sourceTree = "<group>"; };
+		E743D2FF19C6A7DD000B7E6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E743D30119C6A7DD000B7E6E /* PublicIPAddressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicIPAddressTests.m; sourceTree = "<group>"; };
+		E743D30B19C6A80F000B7E6E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		E743D30C19C6A80F000B7E6E /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		E743D30D19C6A80F000B7E6E /* STUNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUNClient.h; sourceTree = "<group>"; };
+		E743D30E19C6A80F000B7E6E /* STUNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUNClient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E743D2D019C6A7DD000B7E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E743D2D919C6A7DD000B7E6E /* CoreGraphics.framework in Frameworks */,
+				E743D2DB19C6A7DD000B7E6E /* UIKit.framework in Frameworks */,
+				E743D2D719C6A7DD000B7E6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E743D2F119C6A7DD000B7E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E743D2F619C6A7DD000B7E6E /* XCTest.framework in Frameworks */,
+				E743D2F819C6A7DD000B7E6E /* UIKit.framework in Frameworks */,
+				E743D2F719C6A7DD000B7E6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E743D2CA19C6A7DD000B7E6E = {
+			isa = PBXGroup;
+			children = (
+				E743D2DC19C6A7DD000B7E6E /* PublicIPAddress */,
+				E743D2FB19C6A7DD000B7E6E /* PublicIPAddressTests */,
+				E743D2D519C6A7DD000B7E6E /* Frameworks */,
+				E743D2D419C6A7DD000B7E6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E743D2D419C6A7DD000B7E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E743D2D319C6A7DD000B7E6E /* PublicIPAddress.app */,
+				E743D2F419C6A7DD000B7E6E /* PublicIPAddressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E743D2D519C6A7DD000B7E6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E743D2D619C6A7DD000B7E6E /* Foundation.framework */,
+				E743D2D819C6A7DD000B7E6E /* CoreGraphics.framework */,
+				E743D2DA19C6A7DD000B7E6E /* UIKit.framework */,
+				E743D2F519C6A7DD000B7E6E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E743D2DC19C6A7DD000B7E6E /* PublicIPAddress */ = {
+			isa = PBXGroup;
+			children = (
+				E743D2E519C6A7DD000B7E6E /* AppDelegate.h */,
+				E743D2E619C6A7DD000B7E6E /* AppDelegate.m */,
+				E743D30B19C6A80F000B7E6E /* GCDAsyncUdpSocket.h */,
+				E743D30C19C6A80F000B7E6E /* GCDAsyncUdpSocket.m */,
+				E743D30D19C6A80F000B7E6E /* STUNClient.h */,
+				E743D30E19C6A80F000B7E6E /* STUNClient.m */,
+				E743D2E819C6A7DD000B7E6E /* Main.storyboard */,
+				E743D2EB19C6A7DD000B7E6E /* ViewController.h */,
+				E743D2EC19C6A7DD000B7E6E /* ViewController.m */,
+				E743D2EE19C6A7DD000B7E6E /* Images.xcassets */,
+				E743D2DD19C6A7DD000B7E6E /* Supporting Files */,
+			);
+			path = PublicIPAddress;
+			sourceTree = "<group>";
+		};
+		E743D2DD19C6A7DD000B7E6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E743D2DE19C6A7DD000B7E6E /* PublicIPAddress-Info.plist */,
+				E743D2DF19C6A7DD000B7E6E /* InfoPlist.strings */,
+				E743D2E219C6A7DD000B7E6E /* main.m */,
+				E743D2E419C6A7DD000B7E6E /* PublicIPAddress-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E743D2FB19C6A7DD000B7E6E /* PublicIPAddressTests */ = {
+			isa = PBXGroup;
+			children = (
+				E743D30119C6A7DD000B7E6E /* PublicIPAddressTests.m */,
+				E743D2FC19C6A7DD000B7E6E /* Supporting Files */,
+			);
+			path = PublicIPAddressTests;
+			sourceTree = "<group>";
+		};
+		E743D2FC19C6A7DD000B7E6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E743D2FD19C6A7DD000B7E6E /* PublicIPAddressTests-Info.plist */,
+				E743D2FE19C6A7DD000B7E6E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E743D2D219C6A7DD000B7E6E /* PublicIPAddress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E743D30519C6A7DD000B7E6E /* Build configuration list for PBXNativeTarget "PublicIPAddress" */;
+			buildPhases = (
+				E743D2CF19C6A7DD000B7E6E /* Sources */,
+				E743D2D019C6A7DD000B7E6E /* Frameworks */,
+				E743D2D119C6A7DD000B7E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PublicIPAddress;
+			productName = PublicIPAddress;
+			productReference = E743D2D319C6A7DD000B7E6E /* PublicIPAddress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E743D2F319C6A7DD000B7E6E /* PublicIPAddressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E743D30819C6A7DD000B7E6E /* Build configuration list for PBXNativeTarget "PublicIPAddressTests" */;
+			buildPhases = (
+				E743D2F019C6A7DD000B7E6E /* Sources */,
+				E743D2F119C6A7DD000B7E6E /* Frameworks */,
+				E743D2F219C6A7DD000B7E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E743D2FA19C6A7DD000B7E6E /* PBXTargetDependency */,
+			);
+			name = PublicIPAddressTests;
+			productName = PublicIPAddressTests;
+			productReference = E743D2F419C6A7DD000B7E6E /* PublicIPAddressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E743D2CB19C6A7DD000B7E6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tops;
+				TargetAttributes = {
+					E743D2F319C6A7DD000B7E6E = {
+						TestTargetID = E743D2D219C6A7DD000B7E6E;
+					};
+				};
+			};
+			buildConfigurationList = E743D2CE19C6A7DD000B7E6E /* Build configuration list for PBXProject "PublicIPAddress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E743D2CA19C6A7DD000B7E6E;
+			productRefGroup = E743D2D419C6A7DD000B7E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E743D2D219C6A7DD000B7E6E /* PublicIPAddress */,
+				E743D2F319C6A7DD000B7E6E /* PublicIPAddressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E743D2D119C6A7DD000B7E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E743D2EF19C6A7DD000B7E6E /* Images.xcassets in Resources */,
+				E743D2E119C6A7DD000B7E6E /* InfoPlist.strings in Resources */,
+				E743D2EA19C6A7DD000B7E6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E743D2F219C6A7DD000B7E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E743D30019C6A7DD000B7E6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E743D2CF19C6A7DD000B7E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E743D31019C6A80F000B7E6E /* STUNClient.m in Sources */,
+				E743D30F19C6A80F000B7E6E /* GCDAsyncUdpSocket.m in Sources */,
+				E743D2ED19C6A7DD000B7E6E /* ViewController.m in Sources */,
+				E743D2E719C6A7DD000B7E6E /* AppDelegate.m in Sources */,
+				E743D2E319C6A7DD000B7E6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E743D2F019C6A7DD000B7E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E743D30219C6A7DD000B7E6E /* PublicIPAddressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E743D2FA19C6A7DD000B7E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E743D2D219C6A7DD000B7E6E /* PublicIPAddress */;
+			targetProxy = E743D2F919C6A7DD000B7E6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E743D2DF19C6A7DD000B7E6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E743D2E019C6A7DD000B7E6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E743D2E819C6A7DD000B7E6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E743D2E919C6A7DD000B7E6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E743D2FE19C6A7DD000B7E6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E743D2FF19C6A7DD000B7E6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E743D30319C6A7DD000B7E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E743D30419C6A7DD000B7E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E743D30619C6A7DD000B7E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PublicIPAddress/PublicIPAddress-Prefix.pch";
+				INFOPLIST_FILE = "PublicIPAddress/PublicIPAddress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E743D30719C6A7DD000B7E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PublicIPAddress/PublicIPAddress-Prefix.pch";
+				INFOPLIST_FILE = "PublicIPAddress/PublicIPAddress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E743D30919C6A7DD000B7E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PublicIPAddress.app/PublicIPAddress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PublicIPAddress/PublicIPAddress-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PublicIPAddressTests/PublicIPAddressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E743D30A19C6A7DD000B7E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PublicIPAddress.app/PublicIPAddress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PublicIPAddress/PublicIPAddress-Prefix.pch";
+				INFOPLIST_FILE = "PublicIPAddressTests/PublicIPAddressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E743D2CE19C6A7DD000B7E6E /* Build configuration list for PBXProject "PublicIPAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E743D30319C6A7DD000B7E6E /* Debug */,
+				E743D30419C6A7DD000B7E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E743D30519C6A7DD000B7E6E /* Build configuration list for PBXNativeTarget "PublicIPAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E743D30619C6A7DD000B7E6E /* Debug */,
+				E743D30719C6A7DD000B7E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E743D30819C6A7DD000B7E6E /* Build configuration list for PBXNativeTarget "PublicIPAddressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E743D30919C6A7DD000B7E6E /* Debug */,
+				E743D30A19C6A7DD000B7E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E743D2CB19C6A7DD000B7E6E /* Project object */;
+}
